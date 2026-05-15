@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "5606bd8bac446515cee87c070951c0169e7d33f0d021de7b5502a3271ced3d8f",
-   "sig": "ce2a6e5234a2388a46ee61a40c4132154c0d4331da113a71bd011cf8f16eece3f5281ef8638638ffbb73c8d89bfd5c1c98aee9f7a783dfa466a4713ae656500b"
+   "sig": "08ea6438ee1f9c3829b0b18759b26f7ec936c49235b5fe8f2c1f8a5f622b7ee4ed203bb88b5a00825a9664cb51fa75fef72c3284002f545fa110595b265bf902"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-05-22T16:08:26Z",
+  "expires": "2026-05-22T17:36:57Z",
   "spec_version": "1.0.31",
   "targets": {
    "UpdaterUser-0.0.2.tar.gz": {
@@ -23,8 +23,22 @@
      "sha256": "d6e9b81689709100af4b58a2ff8ceb30576f3acb70289de70b7bebfbe1a4a4f9"
     },
     "length": 36054757
+   },
+   "UpdaterUser-0.0.3.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": {
+      "release_notes": "\u7248\u672c 0.0.3 \u53d1\u5e03"
+     }
+    },
+    "hashes": {
+     "sha256": "96b607154527132658f7f4ee7e9eee18c6064eddea0b13c7f8b928fd52406b98"
+    },
+    "length": 36068723
    }
   },
-  "version": 2
+  "version": 3
  }
 }
